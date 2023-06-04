@@ -8,7 +8,7 @@
 
 html, body {
     width: 100vw;
-    height: 97vh;
+    height: 100vh;
     background-color: rgb(136, 60, 76);
 
 }
@@ -16,9 +16,8 @@ body {
     background: url(../projeto-social/IMG2/pacote-d013/imagens/fundo-madeira.jpg);
     position: center center;
     background-repeat: no-repeat;
+    overflow: hidden;
     background-size: cover;
-    background-attachment: fixed;
-
 
 }
 main {
