@@ -6,21 +6,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html , body {
+html, body {
     width: 100vw;
-    height: 100vh;
-    background-color: blanchedalmond;
-    background-attachment: fixed;
+    height: 97vh;
+    background-color: rgb(136, 60, 76);
+
 }
 body {
-    background: url(../projeto-social/IMG2/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url(../projeto-social/IMG2/pacote-d013/imagens/fundo-madeira.jpg);
+    position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
+
 }
 main {
-    height: 100vh;
     position: relative;
+    height: 97vh;    
 }
 section#telefone {
     position: relative;
