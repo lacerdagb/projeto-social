@@ -10,6 +10,7 @@ html , body {
     width: 100vw;
     height: 100vh;
     background-color: blanchedalmond;
+    background-attachment: fixed;
 }
 body {
     background: url(../projeto-social/IMG2/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
