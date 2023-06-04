@@ -9,11 +9,28 @@
 html , body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(180, 128, 128);
+    background-color: blanchedalmond;
 }
 body {
-    background: url(../)
+    background: url(../projeto-social/IMG2/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 main {
-    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    position: relative;
+}
+section#telefone {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:  url(../projeto-social/IMG2/pacote-d013/imagens/frame-iphone.png) no-repeat; 
+
+
+    height: 627px;
+    width: 311px
+    
+    
 }
