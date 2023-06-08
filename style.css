@@ -13,18 +13,17 @@ html, body {
 
 }
 body {
-    background: url(../projeto-social/IMG2/pacote-d013/imagens/fundo-madeira.jpg);
-    position: center center;
-    background-repeat: no-repeat;
+    background: url(../projeto-social/IMG2/pacote-d013/imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 main {
     position: relative;
-    height: 97vh;    
+    height: 100vh;    
 }
 section#telefone {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -45,7 +44,8 @@ iframe#tela {
 
 }
 section#redes-sociais {
- text-align: right;
+ text-align: right ;
+
 
 }
 section#redes-sociais img {
