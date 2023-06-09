@@ -47,13 +47,15 @@ section#redes-sociais {
  text-align: right ;
 
 
+
 }
 section#redes-sociais img {
     width: 50px;
     border-radius: 50%;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527);
     box-sizing: border-box;
-    margin: 10px;
+    margin: 10px auto;
+
 }
 section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.603);
