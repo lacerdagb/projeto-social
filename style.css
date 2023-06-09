@@ -65,9 +65,3 @@ section#redes-sociais img:hover {
     transition: transform .4s;
     
 }
-.icon {
-    min-width: auto
-    display: block;
-    margin: auto;
-    width: 100%;
-}
