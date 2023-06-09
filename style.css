@@ -66,6 +66,7 @@ section#redes-sociais img:hover {
     
 }
 .icon {
+    min-width: auto
     display: block;
     margin: auto;
     width: 100%;
